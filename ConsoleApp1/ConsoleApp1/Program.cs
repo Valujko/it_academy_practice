@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
             System.TimeSpan timeSpan = DateTime.Now.TimeOfDay;
 
-            if ((timeSpan.Hours >= 9) && (timeSpan.Hours <= 9))
+            if ((timeSpan.Hours >= 9) && (timeSpan.Hours <= 12))
             {
                 Console.WriteLine("Good morning, guys");
             }
